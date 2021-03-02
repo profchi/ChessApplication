@@ -1,0 +1,250 @@
+
+
+body{
+	background : #86592d; 
+}
+
+#topbar{
+	height : 100px;
+	width : 100%;
+}
+
+.icon {
+	width : 5%;
+	height : 80px;
+}
+
+#dropbtn{
+	width : 50%;
+	margin-right: 5%;
+	height : 80px;
+}
+
+.left{
+	float : left;
+}
+
+.right{
+	float : right;
+}
+
+#contact {
+	position: fixed;
+	bottom : 10px;
+	left : 10px;
+	display : block;
+}
+
+#instagram{
+	position: fixed;
+	bottom : 50px;
+	right : 40px;
+	height : 40px;
+	width : 40px;
+}
+
+#facebook{
+	position: fixed;
+	bottom : 50px;
+	right : 100px;
+	height : 40px;
+	width : 40px;
+	
+}
+
+
+.inputfield{
+	background : #E8EEEF;
+	width : 90%;
+}
+
+.homeoptions{
+	color : white;
+	height : 80px;
+	width : 5%;
+	margin-top : 10px;
+	margin-left: 1%;
+}
+
+.homeoptionshidden{
+	color : white;
+	height : 40px;
+	width : 5%;
+	margin-top : 10px;
+	
+}
+
+#form{
+	padding : 10px 5%; 
+	width : 20%;
+	margin-left : 35%;
+	background : brown;
+	border : 3px solid grey;
+	color : white;
+}
+
+.button{
+	background : green;
+}
+
+#videowrapper{
+	position : fixed;
+	height : 100%;
+	width : 100%;
+	overflow : hidden;
+	z-index: -99; 
+}
+
+#myVideo{
+	position: absolute; 
+	z-index: -99; 
+	right : 0px;
+	top : 0px;
+	
+	min-height : 100%;
+	min-width : 100%;
+	
+	opacity : 0.4;
+	margin-top : 0%;
+	
+}
+
+.error{
+	color : #ff3300;
+}
+
+
+#about{
+	padding : 50px 5%;
+	height : 500px;
+	width : 30%;
+	margin-left : 25%;
+	background : brown;
+	color : white;
+}
+
+#outerboard{
+	background : #86592d;
+	height : 640px;
+	width : 70%;
+	margin-left : 10%;
+	padding: 3%;
+}
+
+#innerboard{
+	
+}
+
+#dropdownmenu {
+	display: none;
+	width : 10%;
+}
+
+#navForm{
+	display: none;
+}
+
+.square{
+	float : left;
+	height : 80px;
+	width : 12.5%;
+	background-position : center !important; 
+	background-repeat : no-repeat !important;
+}
+
+.odd{
+	background : #663300;
+}
+
+.even{
+	background : #ff9933;
+}
+
+.homeoptions:hover , .homeoptionshidden:hover{
+	cursor : pointer;
+	text-decoration:underline;
+}
+
+.menubutton{
+	height : 100px;
+	margin-top : 50px;
+	margin-left : 20%;
+	text-align : center;
+	background : brown;
+	width : 60%;
+	color : white;
+	font-size: 2.5vw;
+	white-space:normal !important;
+	word-wrap:break-word;
+}
+.menubutton:hover{
+	background : #ff884d;
+}
+
+.gamemenubutton{
+	height : 80px;
+	margin-top : 40px;
+	margin-left : 20%;
+	text-align : center;
+	background : brown;
+	width : 60%;
+	color : white;
+	font-size: 2.5vw;
+	white-space:normal !important;
+	word-wrap:break-word;
+}
+
+.gamemenubutton:hover{
+	background : #ff884d;
+}
+
+
+@media screen and (max-width: 1140px){
+	
+	#nav {
+		display : none;
+	}
+	#nav2{
+		margin-right : 10%;
+		float : right;
+	}
+	#dropdownmenu{
+		display: block;
+		float  : right;
+		overflow: hidden;
+	}
+	
+	#nav-menu{
+		display: none;
+	
+		
+		min-width: 50px;
+		z-index: 1;
+		
+	}
+	
+	#dropdownmenu h2 {
+	  float: none;
+	  color: white;
+	  padding: 12px 16px;
+	  display: block;
+	  text-align: left;
+	}
+	
+
+	#dropdownmenu:hover #nav-menu{
+		display : inline-block;
+	}
+		
+}
+
+
+@media screen and (max-width: 740px){
+	#dropdownmenu{
+		display: block;
+		float  : right;
+		overflow: hidden;
+		width : 20%;
+	}
+	
+}
